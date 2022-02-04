@@ -1,0 +1,175 @@
+/*----------home section responsive start------------*/
+
+@media (max-width: 910px) {
+  .home-section .home-text h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .home-section .home-text,
+  .home-section .home-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-section .home-text {
+    order: 2;
+  }
+  .about-section .about-info,
+  .home-section .home-text {
+    text-align: center;
+  }
+  .home-section .full-screen {
+    padding: 100px 0;
+  }
+  .home-section .home-img .img-box {
+    margin-bottom: 40px;
+    max-width: 350px;
+  }
+  .effect-3 {
+    margin-left: -60px;
+  }
+  .effect-4 {
+    left: 15%;
+  }
+}
+@media (max-width: 574px) {
+  .home-section .home-img .img-box {
+    max-width: 260px;
+  }
+  .home-section .home-text h2 {
+    font-size: 40px;
+  }
+}
+/*----------home section responsive end------------*/
+/*----------about section responsive start-----------*/
+@media (max-width: 767px) {
+  .about-section .about-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section .about-img {
+    display: none;
+  }
+}
+/*----------about section responsive end-----------*/
+/*---------- about section skill item section responsive start-----------*/
+@media (max-width: 645px) {
+  .about-section .skills .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section .timeline .timeline-item:nth-child(odd) {
+    padding-right: 15px;
+    text-align: left;
+    padding-left: 75px;
+  }
+  .about-section .timeline .timeline-item:nth-child(even) {
+    padding-left: 75px;
+  }
+  .about-section .timeline:before {
+    left: 35px;
+  }
+  .about-section .timeline .timeline-item:nth-child(odd) .icon {
+    right: auto;
+    left: -60px;
+  }
+  .about-section.timeline.timeline-item:nth-child(even) .icon {
+    left: -60px;
+  }
+  .about-section .timeline .timeline-item {
+    margin-bottom: 40px;
+  }
+  .about-section .timeline .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .about-section.timeline
+    .timeline-item:nth-child(odd)
+    .timeline-item-inner:before {
+    left: -30px;
+    right: 30px;
+  }
+}
+/*---------- about section skill item section responsive end-----------*/
+/*----------service section responsive start------------*/
+@media (max-width: 965px) {
+  .service-section .service-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 585px) {
+  .service-section .service-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*----------service section responsive end------------*/
+/*----------portfolio section responsive start------------*/
+@media (max-width: 991px) {
+  .portfolio-section .portfolio-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 662px) {
+  .portfolio-popup .description {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .portfolio-section .portfolio-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/*----------portfolio section responsive end------------*/
+/*----------contact section responsive start-----------*/
+@media (max-width: 870px) {
+  .contact-section .contact-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .contact-section .contact-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/*----------contact section responsive end-----------*/
+/*----------mail section responsive start----------*/
+@media (max-width: 767px) {
+  .contact-section .w-50 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/*----------mail section responsive end----------*/
+@media (max-width: 600px) {
+  .contact_form0 .wrapper header {
+    text-align: center;
+  }
+  .contact_form0 .wrapper form .dbl-field {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .contact_form0 .wrapper form .dbl-field .field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .button-area button {
+    width: 100%;
+  }
+  form .button-area {
+    flex-direction: column;
+  }
+  form .button-area span {
+    margin: 20px 0;
+    text-align: center;
+  }
+  form .message textarea {
+    resize: none;
+  }
+}

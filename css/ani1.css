@@ -1,0 +1,41 @@
+.introAni {
+  z-index: 1001;
+}
+.intro {
+  background-color: var(--bg-black-50);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+.slider {
+  background: var(--skin-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  z-index: 1001;
+}
+
+.intro-text {
+  color: rgb(0, 0, 0);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background-color: var(--bg-black-50);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
